@@ -13,4 +13,9 @@ const (
 	ProviderOTP      Provider = "otp"
 	ProviderPassword Provider = "password"
 	ProviderPin      Provider = "pin"
+
+	const (
+	KeyPassword = "PASSWORD"
+	KeyPIN      = "PIN"
+)
 )
